@@ -1,63 +1,108 @@
-.division
+@import url('https://font.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+body
 {
-  display: flex;
-  height:550px;
-  padding-top: 70px;
-  padding-left: 425px;
-  background-color: white;
-  background-size: cover;
-  background-image: url("stockman1.png");
+    font-family:'Poppins',sans-serif;
+    color: rgb(12, 0, 0);
+}
+.SignDiv
+{
+    display: flex;
+    flex-direction: row;
+    height:569px;
+    width:1255px;
+    padding-top: 10px;
+    background-color: #171717;
+}
+.DivPic2
+{
+    padding-top: 100px;
+    margin-left: 215px;
     
 }
-form
+.imgBG2
 {
-  text-align: center;
-  background-color: white;
-  border: 1px solid grey;
-  border-radius: 5px;
-  height: 450px;
-  width: 400px;
-  border-width: 1px;
-  /* background: transparent;
-  backdrop-filter: blur(5px); */
+    height: 90%;
+    width:  100%;
+    border-radius: 2px;
 }
-input
+.DivForm2
 {
-  border: none;
-  /* border-style:none;
-  border-color: white;
-  border-bottom: 4px solid white; */
-  width: 300px;
-  height: 40px;
-  outline: none;
-  border-radius: 5px;
+    padding-top: 100px;
+    margin-right: 225px;
+    padding-left: 1px;
+}
+.SignUpForm
+{
+    text-align: center;
+    background-color: white;
+    border: 1px solid grey;
+    height: 420px;
+    width: 400px;
+    border-width: 1px;
+    border-radius: 1%;
+}
+input[type=text],input[type=password]
+{
+    font-size: 15px;
+    font-weight: normal;
+    border-style:none;
+    /* border-bottom: 2px solid black; */
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+    outline: none;
 }
 input:focus
 {
-  background-color: #e76d40;
-  /* border-color: white; */
+    /* background-image: linear-gradient(to right,lightblue,rgb(95, 95, 214));  */
+    box-shadow: #171717;
+    border-color: white;
 }
 input:hover
 {
-  box-shadow: 0 0 10px 4px #e76d40;
+    box-shadow: 0 0 5px 3px #171717;
 }
 ::placeholder
 {
-  font-size: 17px;
-  padding-left: 20px;
+    font-family:'Poppins',sans-serif;
+    font-size: 17px;
+    padding-left: 20px;
 }
-.submit 
+.subButton1
 {
-  background-color: #e76d40;
-  font-size: 120%;
-  font-weight: 200;
-  padding-top: 5px;
-  border-radius: 5px;
-  border-bottom: white;
-  text-align: center;
-  cursor: pointer;
+    color:white;
+    height: 40px;
+    width: 300px;
+    font-size: 120%;
+    background-color: #171717;
+    border-radius: 5px;
+    border: none;
+
 }
-.submit:hover
+.subButton1:hover
 {
-    box-shadow: 0 0 10px 4px #e76d40;
+    box-shadow: 0 0 5px 5px #171717;
+}
+a
+{
+    /* color: #e76d40; */
+font-family: "Source Sans Pro",sans-serif;
+font-weight: 400;
+font-style: normal;
+font-stretch: normal;
+font-size: 12px;
+line-height: 20px;
+letter-spacing: .02em;
+text-decoration: none;
+}
+bh
+{
+    font-family: "Source Sans Pro",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: .02em;
+    text-decoration: none;
 }
