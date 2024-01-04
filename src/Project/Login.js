@@ -19,7 +19,11 @@ export default function Login() {
           <input type='password' placeholder='password' required></input>
           <br></br>
           <br></br>
-          <button className='subButton' style={{textDecoration:'none'}}><Link to='./Home1'>submit</Link></button>
+          <Link to='./Home1'>
+          <button className='subButton' style={{textDecoration:'none'}}>
+          submit
+          </button>
+          </Link>
           <br></br>
           <br></br>
           <a>View Our <a href='https://www.cockroachlabs.com/cloud-terms-and-conditions/'>Terms of Service</a> and <a href='https://www.cockroachlabs.com/cloud-terms-and-conditions/'>Policy</a></a>

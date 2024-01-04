@@ -9,6 +9,7 @@ import LocalShippingSharpIcon from '@mui/icons-material/LocalShippingSharp';
 import LocalGroceryStoreRounded from '@mui/icons-material/LocalGroceryStoreRounded';
 import RestoreRoundedIcon from '@mui/icons-material/RestoreRounded';
 import Footer from './Footer';
+import { Link } from 'react-router-dom';
 export default function Home1() {
   return (
     <div>
@@ -41,16 +42,19 @@ export default function Home1() {
             <div className='LettersGrid'>
               Users
             </div>
-          </div>
-          <div class="grid-item">
+            </div>
+            <Link to='/Suppliers'>
+            <div class="grid-item">
             <div className='StyleIcon'>
-              <PersonIcon sx={{ fontSize: 100, color: 'rgb(74, 73, 73)' }} className='iconsGrid'></PersonIcon>
+            <PersonIcon sx={{ fontSize: 100, color: 'rgb(74, 73, 73)' }} className='iconsGrid'></PersonIcon>
             </div>
             <div className='LettersGrid'>
-              Suppliers
+            Suppliers
             </div>
-          </div>
-          <div class="grid-item">
+            </div>
+            </Link>
+            <Link to='/Items'>
+            <div class="grid-item">
             <div className='StyleIcon'>
               <Inventory2Icon sx={{ fontSize: 100, color: 'rgb(74, 73, 73)' }} className='iconsGrid'></Inventory2Icon>
             </div>
@@ -58,6 +62,7 @@ export default function Home1() {
               Items
             </div>
           </div>
+          </Link>
           <div class="grid-item">
             <div className='StyleIcon'>
               <LocalShippingSharpIcon sx={{ fontSize: 100, color: 'rgb(74, 73, 73)' }} className='iconsGrid'></LocalShippingSharpIcon>

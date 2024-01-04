@@ -4,10 +4,10 @@ import reportWebVitals from './reportWebVitals';
 import Stock from './Project/Stock';
 import Home from './Project/Home';
 import Home1 from './Project/Home1';
+import Suppliers from './Project/Suppliers';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<Stock/>);
-
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
